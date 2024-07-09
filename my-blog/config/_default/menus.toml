@@ -1,0 +1,80 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration
+# See: https://fixit.lruihao.cn/theme-documentation-basics/#menu-advanced-configuration
+# -------------------------------------------------------------------------------------
+
+[[main]]
+  identifier = "archives"
+  pre = ""
+  post = ""
+  name = "Archives"
+  url = "/archives/"
+  title = ""
+  weight = 1
+  [main.params]
+    icon = "fa-solid fa-archive"
+[[main]]
+  identifier = "categories"
+  parent = "archives"
+  pre = ""
+  post = ""
+  name = "Categories"
+  url = "/categories/"
+  title = ""
+  weight = 2
+  [main.params]
+    icon = "fa-solid fa-folder-tree"
+[[main]]
+  identifier = "collections"
+  parent = "archives"
+  pre = ""
+  post = ""
+  name = "Collections"
+  url = "/collections/"
+  title = ""
+  weight = 3
+  [main.params]
+    icon = "fa-solid fa-layer-group"
+[[main]]
+  identifier = "tags"
+  parent = "archives"
+  pre = ""
+  post = ""
+  name = "Tags"
+  url = "/tags/"
+  title = ""
+  weight = 3
+  [main.params]
+    icon = "fa-solid fa-tags"
+
+[[main]]
+  identifier = "guestbook"
+  pre = ""
+  post = ""
+  name = "Guestbook"
+  url = "/guestbook/"
+  title = ""
+  weight = 6
+  [main.params]
+    icon = "fa-regular fa-comments"
+[[main]]
+  identifier = "about"
+  pre = ""
+  post = ""
+  name = "About"
+  url = "/about/"
+  title = ""
+  weight = 7
+  [main.params]
+    icon = "fa-regular fa-id-card"
+[[main]]
+  identifier = "github"
+  pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
+  post = ""
+  name = ""
+  url = "https://github.com/po3nyo/blog"
+  title = "GitHub"
+  weight = ""
+  [main.params]
+    class = "text-center"
+    type = "mobile"
