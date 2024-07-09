@@ -1,0 +1,7 @@
+[submodule "my-blog/themes/FixIt"]
+	path = my-blog/themes/FixIt
+	url = https://github.com/hugo-fixit/FixIt.git
+[submodule "my-blog/public"]
+	path = my-blog/public
+	url = https://github.com/po3nyo/po3nyo.github.io.git
+	branch = main
